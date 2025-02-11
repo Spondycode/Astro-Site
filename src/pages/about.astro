@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About - My Astro Site">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-4xl font-bold text-gray-900 mb-6">About Us</h1>
+    
+    <div class="prose prose-lg">
+      <p class="text-gray-600 mb-4">
+        Welcome to our Astro-powered website! We're passionate about creating fast, 
+        modern web experiences using cutting-edge technologies.
+      </p>
+      
+      <p class="text-gray-600 mb-4">
+        This site is built with:
+      </p>
+      
+      <ul class="list-disc list-inside space-y-2 text-gray-600 mb-6">
+        <li>Astro - The all-in-one web framework designed for speed</li>
+        <li>Tailwind CSS - A utility-first CSS framework</li>
+        <li>TypeScript - For type-safe development</li>
+      </ul>
+      
+      <div class="bg-blue-50 p-6 rounded-lg">
+        <h2 class="text-2xl font-semibold text-blue-900 mb-3">Get Started</h2>
+        <p class="text-blue-700">
+          Want to build something similar? Check out the 
+          <a href="https://docs.astro.build" class="text-blue-600 hover:text-blue-800 underline">
+            Astro documentation
+          </a>
+          to get started with your own project.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

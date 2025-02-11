@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to My Astro Site">
+  <div class="space-y-12">
+    <section class="text-center">
+      <h1 class="text-4xl font-bold text-purple-900 mb-4">Astro is Pretty and Amazing</h1>
+      <p class="text-xl text-purple-600">A modern website built with Astro and Tailwind CSS</p>
+    </section>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-yellow-200 p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">Fast Performance</h2>
+        <p class="text-gray-600">Built with Astro's next-gen island architecture for optimal performance.</p>
+      </div>
+      <div class="bg-yellow-200 p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">Tailwind CSS</h2>
+        <p class="text-gray-600">Beautiful, responsive design with utility-first CSS framework.</p>
+      </div>
+      <div class="bg-yellow-200 p-6 rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">TypeScript</h2>
+        <p class="text-gray-600">Type-safe development experience with TypeScript integration.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero bg-gray-200 min-h-80 shadow-md rounded-lg mt-12">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">Hello there</h1>
+        <p class="py-6">
+          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+          quasi. In deleniti eaque aut repudiandae et a id nisi.
+        </p>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+    </div>
+  </div>
+</Layout>
