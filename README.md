@@ -12,6 +12,7 @@ npm create astro@latest -- --template minimal
 
 ## 🚀 Project Structure
 
+[[test-file#Looks Like it did.]]
 Inside of your Astro project, you'll see the following folders and files:
 
 ```text
